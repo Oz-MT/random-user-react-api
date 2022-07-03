@@ -1,0 +1,51 @@
+@import '../scss/variables';
+
+.content{
+    background-color: var(--color2);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 2rem 0 2rem;
+        gap: 2rem   ;
+
+        img{
+        height: 125px;
+        border-radius: 50%;        
+    }
+        p  {
+            font-size: 1.25rem;
+        }
+
+    }
+     
+    p{
+        img{
+            height: 30px;
+        }
+    }
+    
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+        padding: 1.5rem;
+        img{
+            margin-right: 1rem;
+        }
+    }
+    .age{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
